@@ -71,6 +71,9 @@ def login(usr, pwd):
 
 
 if __name__ == '__main__':
+    delay_sec = random.randint(1,50)
+    List.append(f'随机延时{delay_sec}s')
+    time.sleep(delay_sec)
     i = 0
     if 'KOY_EB' in os.environ:
         users = os.environ['KOY_EB'].split('&')
