@@ -2,7 +2,7 @@
 # -*- coding: utf8 -*-
 import json
 import requests
-import os
+import os, random
 # from sendNotify import send
 import time
 import datetime
